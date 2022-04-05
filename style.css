@@ -1,0 +1,14 @@
+#board{
+background-color: rgb(159, 131, 226);
+border: 30px; line-height: normal; color: black;
+border-radius: 10px;
+}
+#board{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.card{
+    background-color: rgb(148, 180, 88);
+    border-bottom: 50px;
+    border-bottom-color: black;    
+}
