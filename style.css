@@ -1,14 +1,39 @@
+h1{
+    justify-content: center;
+    text-align: center;
+}
 #board{
+    
 background-color: rgb(159, 131, 226);
-border: 30px; line-height: normal; color: black;
+border: 5px;border-style: solid; color: black;
 border-radius: 10px;
+display: grid;
+grid-template-columns: 2fr 2fr 2fr 2fr;
+gap: 20px;
 }
-#board{
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-}
+
 .card{
     background-color: rgb(148, 180, 88);
-    border-bottom: 50px;
-    border-bottom-color: black;    
+    border: 10px;border-style: double; color: black;
+    /* border-bottom-color: black; */
+    text-align: center;
+    height: 30px;
+    color: transparent;
+  
+}
+    .card:hover  {  background-color: yellow;
+      
+    }
+#score{
+    text-align: center;
+    background-color: blue;
+    border: 5px;border-style: solid;
+    margin: 2%;
+    display: inline-flex;
+}
+.player1{
+    border: 2px; border-style: solid;
+}
+.player2{
+    margin-right: auto;
 }
