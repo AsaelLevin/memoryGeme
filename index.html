@@ -5,15 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1><u>memory game</u></h1>
-    <div id="board">
-    <script src="main.js"></script>
+    <div id="header">
+      <h1><u>memory game</u></h1>
+      <h2 id="isTurn"></h2>
+    </div>
+    <div id="main">
+    <div id="score1">
+      <span class="player1"></span>
+    </div>
+    <div id="score2">
+      <span class="player2"></span>
+    </div>
   </div>
-  <div id="score">
-    <span class="player1"><h3>player 1</h3><h3>score: {point1}</h3></span> <br>
-  <span class="player2"><h3>player 2</h3><h3>score: {point1}</h3></span></div>
+    <div id="board"></div>
+    <script src="main.js"></script>
   </body>
 </html>
