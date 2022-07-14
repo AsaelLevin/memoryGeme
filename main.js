@@ -31,7 +31,7 @@ let pointPair = document.getElementById("score1");
 let pointPair2 = document.getElementById("score2");
 let isTurn = document.getElementById("isTurn");
 let playNaw = player1
-isTurn.innerHTML = `naw ${playNaw} turn to play`
+isTurn.innerHTML = `now ${playNaw}'s turn to play`
 let win = 0
 
 function addCards(v, i, arr) {
@@ -84,7 +84,7 @@ board.addEventListener("click", (i) => {
       }
       else {
         setTimeout(() => {
-          alert("good job! your turn agein");
+          alert("good job! your turn again");
         }, 200);
 
         pair = [];
