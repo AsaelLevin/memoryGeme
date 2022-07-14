@@ -102,7 +102,7 @@ board.addEventListener("click", (i) => {
       else {
         playNaw = player1
       }
-      isTurn.innerHTML = `naw ${playNaw} turn to play`
+      isTurn.innerHTML = `now ${playNaw}'s turn to play`
       setTimeout(() => {
         alert("next player!");
       }, 500);
